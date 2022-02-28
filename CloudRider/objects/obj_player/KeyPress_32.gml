@@ -7,5 +7,11 @@ if (hook!=pointer_null&&instance_exists(hook) && hook.arrived){
 }else{
 	if (tileOnland(_tilemap)){
 		vspeed = -jumpPower;
+		image_index = 0; 
+		grounded = false; 
+		sprite_index = spr_player_jump; 
 	}
 }
+
+
+

@@ -10,7 +10,11 @@ if (basicTileCollisionHandle(_tilemap)){
 if (hooked){
 	gravity=0;
 }
-if (x!=xprevious){
+
+if (x!=xprevious) { 
 	image_xscale = sign(x-xprevious)*abs(image_xscale);
-}
-	
+}  
+
+if (keyboard_key == 0 && sprite_index != spr_player_shoot && sprite_index != spr_player_jump) {
+	sprite_index = spr_player_idle;
+} 
