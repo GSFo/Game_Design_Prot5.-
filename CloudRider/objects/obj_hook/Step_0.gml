@@ -19,7 +19,6 @@ if (back){
 }
 
 if (attachedCloud!=pointer_null && instance_exists(attachedCloud)){
-	show_debug_message("attached")
 	with (source){
 		if (distance_to_object(other)<other.minDistance){
 			other.arrived = true;

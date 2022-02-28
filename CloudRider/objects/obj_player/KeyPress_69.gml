@@ -9,4 +9,9 @@ if (hook == pointer_null || !instance_exists(hook)){
 }
 else{
 	hook.back = true;
+	hook.arrived = false;
+	hooked = false;
+	hook.attachedCloud = pointer_null;
+	hook.hookedToCloud = false;
+	gravity = gravityEffect;
 }
