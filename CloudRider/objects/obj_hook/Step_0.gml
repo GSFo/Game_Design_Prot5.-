@@ -37,4 +37,5 @@ if (attachedCloud!=pointer_null && instance_exists(attachedCloud)){
 }
 else if (hookedToCloud){
 	back = true;
+	source.hooked = false;
 }
