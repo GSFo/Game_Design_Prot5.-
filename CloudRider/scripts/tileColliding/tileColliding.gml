@@ -2,12 +2,12 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function tileCollidingHorizontal(_tilemap){
 	var meeting = false;	
-	for (var i = 0; i<2; ++i){
+	for (var i = -.5; i<1; ++i){
 		var xCheck= x+ i * image_xscale * sprite_width;
-		for (var j = 1; j<4; ++j){
-			var yCheck = y - j * image_yscale * sprite_height / 4;
+		for (var yCheck =y+sprite_yoffset-.2; yCheck>y+sprite_yoffset- image_yscale * sprite_height; 
+			yCheck-= (image_yscale * sprite_height-.4)/4){
 			draw_text(xCheck,yCheck,"!");
-			if (tilemap_get_at_pixel(_tilemap, xCheck, yCheck)!=0){
+			if (tilemap_get_at_pixel(_tilemap, xCheck, yCheck)){
 				meeting = true;
 			}
 		}
@@ -16,11 +16,11 @@ function tileCollidingHorizontal(_tilemap){
 }
 function tileCollidingTop(_tilemap){
 	var meeting = false;	
-	var yCheck= y - image_yscale * sprite_height;
-	for (var j = 1; j<4; ++j){
+	var yCheck= y + sprite_yoffset - image_yscale * sprite_height;
+	for (var j = -1; j<2; ++j){
 		var xCheck = x + j * image_yscale * sprite_width / 4;
 		draw_text(xCheck,yCheck,"!");
-		if (tilemap_get_at_pixel(_tilemap, xCheck, yCheck)!=0){
+		if (tilemap_get_at_pixel(_tilemap, xCheck, yCheck)){
 			meeting = true;
 		}
 	}
@@ -29,13 +29,17 @@ function tileCollidingTop(_tilemap){
 
 function tileCollidingBot(_tilemap){
 	var meeting = false;	
-	var yCheck= y;
-	for (var j = 1; j<4; ++j){
+	var yCheck= y+ sprite_yoffset ;
+	for (var j = -1; j<2; ++j){
 		var xCheck = x + j * image_yscale * sprite_width / 4;
 		draw_text(xCheck,yCheck,"!");
-		if (tilemap_get_at_pixel(_tilemap, xCheck, yCheck)!=0){
+		if (tilemap_get_at_pixel(_tilemap, xCheck, yCheck)){
 			meeting = true;
 		}
 	}
 	return meeting;
+}
+
+function tileEnter(_tilemap){
+	return tilemap_get_at_pixel(_tilemap, x, y);
 }

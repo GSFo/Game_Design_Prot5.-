@@ -1,3 +1,5 @@
-/// @description Insert description here
+/// @description move left
 // You can write your code in this editor
-x -= spd*delta_time/10000
+if (!hooked){
+	x -= spd*delta_time/10000
+}
