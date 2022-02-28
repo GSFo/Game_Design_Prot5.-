@@ -5,3 +5,4 @@ gravity = gravityEffect;
 _tilemap = layer_tilemap_get_id("Tiles_Collision"); 
 hook = pointer_null;
 hooked = false;
+depth = -999;

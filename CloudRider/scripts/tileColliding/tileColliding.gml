@@ -10,6 +10,7 @@ function tileCollidingHorizontal(_tilemap){
 			yCheck-= (image_yscale * sprite_height-.4)/4){
 			draw_text(xCheck,yCheck,"!");
 			if (tilemap_get_at_pixel(_tilemap, xCheck, yCheck)){
+				show_debug_message(tilemap_get_at_pixel(_tilemap, xCheck, yCheck))
 				meeting = true;
 			}
 		}
