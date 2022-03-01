@@ -20,6 +20,7 @@
     {"id":{"name":"obj_cloud","path":"objects/obj_cloud/obj_cloud.yy",},"order":0,},
     {"id":{"name":"tileColliding","path":"scripts/tileColliding/tileColliding.yy",},"order":0,},
     {"id":{"name":"obj_redSlimeBall","path":"objects/obj_redSlimeBall/obj_redSlimeBall.yy",},"order":4,},
+    {"id":{"name":"rm_lv2","path":"rooms/rm_lv2/rm_lv2.yy",},"order":1,},
     {"id":{"name":"spr_player_shoot","path":"sprites/spr_player_shoot/spr_player_shoot.yy",},"order":1,},
     {"id":{"name":"obj_roomMoveEvent","path":"objects/obj_roomMoveEvent/obj_roomMoveEvent.yy",},"order":1,},
     {"id":{"name":"tileBouncing","path":"scripts/tileBouncing/tileBouncing.yy",},"order":2,},
@@ -52,6 +53,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_lvl1","path":"rooms/rm_lvl1/rm_lvl1.yy",},},
+    {"roomId":{"name":"rm_lv2","path":"rooms/rm_lv2/rm_lv2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
