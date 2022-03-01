@@ -9,6 +9,3 @@ if (lifetime<=maxLifetime/5){
 else{
 	ready = true;
 }
-if (lifetime>maxLifetime){
-	instance_destroy()
-}
