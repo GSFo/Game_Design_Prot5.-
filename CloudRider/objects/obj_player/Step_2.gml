@@ -32,3 +32,13 @@ if(sCloud && vspeed > 0){
 		}
 	}
 }
+
+if (mouse_check_button_pressed(mb_left)) {
+	var _dir = point_direction(obj_player.x, obj_player.y, mouse_x, mouse_y);
+	var _x = lengthdir_x(30, _dir);
+	var _y = lengthdir_y(30, _dir);
+	var _atk = instance_create_depth(obj_player.x + _x, obj_player.y + _y , -obj_player.y, obj_atk);
+	_atk.image_angle = _dir;
+	_atk.image_yscale = 0.5;
+	_atk.image_xscale = 0.5;
+}
