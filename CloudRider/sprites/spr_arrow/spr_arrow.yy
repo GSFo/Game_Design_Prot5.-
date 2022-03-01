@@ -85,8 +85,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Projectile",
+    "path": "folders/Sprites/Projectile.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_arrow",

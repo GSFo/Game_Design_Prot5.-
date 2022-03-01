@@ -6,7 +6,7 @@
     "path": "folders/Scripts/tileCollision.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tileColliding",
+  "name": "tileBouncing",
   "tags": [],
   "resourceType": "GMScript",
 }

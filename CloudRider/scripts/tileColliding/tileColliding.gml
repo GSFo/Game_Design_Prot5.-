@@ -10,7 +10,7 @@ function tileCollidingHorizontal(_tilemap){
 			yCheck-= (image_yscale * sprite_height-.4)/4){
 			draw_text(xCheck,yCheck,"!");
 			if (tilemap_get_at_pixel(_tilemap, xCheck, yCheck)){
-				show_debug_message(tilemap_get_at_pixel(_tilemap, xCheck, yCheck))
+//				show_debug_message(tilemap_get_at_pixel(_tilemap, xCheck, yCheck))
 				meeting = true;
 			}
 		}
@@ -47,6 +47,15 @@ function tileEnter(_tilemap){
 	return tilemap_get_at_pixel(_tilemap, x, y);
 }
 
+function tileGravityHandle(_tilemap){
+	if (tileOnland(layer_tilemap_get_id("Tiles_Collision"))){
+		gravity = 0;
+	}
+	else{
+		gravity = gravityEffect;
+	}
+}
+
 function basicTileCollisionHandle(_tilemap){
 	var _colliding = false;
 	if (tileCollidingHorizontal(_tilemap)){
@@ -64,11 +73,26 @@ function basicTileCollisionHandle(_tilemap){
 		vspeed = 0;
 		_colliding = true;
 	}
-	if (tileOnland(layer_tilemap_get_id("Tiles_Collision"))){
-		gravity = 0;
+	tileGravityHandle(_tilemap);
+	return _colliding;
+}
+
+function basicTileCollisionHandleNoGravity(_tilemap){
+	var _colliding = false;
+	if (tileCollidingHorizontal(_tilemap)){
+		x = xprevious;
+		hspeed = 0;
+		_colliding = true;
 	}
-	else{
-		gravity = gravityEffect;
+	if (tileCollidingTop(_tilemap)){
+		y = yprevious;
+		vspeed = 0;
+		_colliding = true;
+	}
+	if (tileCollidingBot(_tilemap)){
+		y = yprevious;
+		vspeed = 0;
+		_colliding = true;
 	}
 	return _colliding;
 }
