@@ -16,3 +16,7 @@ if (x != xprevious){
 }
 
 basicTileCollisionHandle(_tilemap)
+
+if (hurt) {
+	sprite_index = spr_slime_hurt; 	
+} 

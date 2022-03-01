@@ -83,6 +83,7 @@ function basicTileCollisionHandleNoGravity(_tilemap){
 		x = xprevious;
 		hspeed = 0;
 		_colliding = true;
+		if (object_index == obj_player) hcollide = true; 
 	}
 	if (tileCollidingTop(_tilemap)){
 		y = yprevious;

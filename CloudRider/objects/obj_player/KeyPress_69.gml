@@ -6,6 +6,7 @@ if (hook == pointer_null || !instance_exists(hook)){
 		move_towards_point(mouse_x,mouse_y,initialSpeed)
 		source = other;
 	}
+	image_xscale = sign(mouse_x-x)*1; 
 }
 else{
 	hook.back = true;

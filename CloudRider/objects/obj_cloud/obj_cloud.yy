@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_cloud_temp",
-    "path": "sprites/spr_cloud_temp/spr_cloud_temp.yy",
+    "name": "spr_cloud",
+    "path": "sprites/spr_cloud/spr_cloud.yy",
   },
   "solid": false,
   "visible": true,
