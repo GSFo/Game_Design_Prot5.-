@@ -16,7 +16,10 @@ if (x!=xprevious && sprite_index != spr_player_shoot) {
 	image_xscale = sign(x-xprevious)*abs(image_xscale);
 }  
 
-if (keyboard_key == 0 && sprite_index != spr_player_shoot && sprite_index != spr_player_jump && !hooked) {
+if (keyboard_key == 0 && 
+	sprite_index != spr_player_shoot && 
+	sprite_index != spr_player_jump && 
+	sprite_index != spr_player_front_atk && !hooked) {
 	sprite_index = spr_player_idle;
 } 
 

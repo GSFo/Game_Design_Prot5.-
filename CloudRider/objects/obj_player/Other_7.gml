@@ -23,3 +23,7 @@ if (sprite_index == spr_player_jump) {
 	sprite_index = spr_player_idle; 
 	grounded = true; 
 } 
+
+if (sprite_index == spr_player_front_atk) {
+	sprite_index = spr_player_idle; 	
+} 
