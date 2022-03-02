@@ -1,6 +1,8 @@
 /// @description melee attack
 // You can write your code in this editor
 if (meleeAttackCDRemain<0){
+	#region Small sword chop animation (old) 
+	/* small sword chop animation code here 
 	meleeAttackCDRemain = meleeAttackCD;
 	var _dir = point_direction(obj_player.x, obj_player.y, mouse_x, mouse_y);
 	var _x = lengthdir_x(30, _dir);
@@ -15,4 +17,22 @@ if (meleeAttackCDRemain<0){
 	if(_dir > 90 && _dir < 270){
 		_atk.image_yscale = - _atk.image_yscale;
 	}
+	*/ 
+	#endregion
+
+// player attack animation here (player uses like a circle chop so all angles look the same) 
+	meleeAttackCDRemain = meleeAttackCD;
+	image_index = 0; 
+	sprite_index = spr_player_front_atk;
+	var inst_attacked = collision_rectangle(x-sprite_xoffset*1.5, y+sprite_yoffset, x+sprite_xoffset*1.5, y-sprite_yoffset*2.2, obj_enemy, false, true); 
+	if (inst_attacked != noone) {
+		if (items[0]) {
+			inst_attacked.life -= damage*2; 	
+		} 
+		else {
+			inst_attacked.life -= damage; 	
+		} 
+		inst_attacked.hurt = true; 
+	} 
+	
 }
