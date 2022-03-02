@@ -37,6 +37,8 @@
             {"propertyId":{"name":"eventText","path":"objects/obj_oneTimeTextEvent/obj_oneTimeTextEvent.yy",},"objectId":{"name":"obj_oneTimeTextEvent","path":"objects/obj_oneTimeTextEvent/obj_oneTimeTextEvent.yy",},"value":"Use Mouse to Aim\\nRight Click for Long Shoot\\nLeft Click for Short Range Attack","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_oneTimeTextEvent","path":"objects/obj_oneTimeTextEvent/obj_oneTimeTextEvent.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":256.0,"resourceVersion":"1.0","name":"inst_2435496D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_roomMoveEvent","path":"objects/obj_roomMoveEvent/obj_roomMoveEvent.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.28125006,"scaleY":5.484375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1190.5,"y":176.0,"resourceVersion":"1.0","name":"inst_17FA9473","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_outOfRoomEvent","path":"objects/obj_outOfRoomEvent/obj_outOfRoomEvent.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":18.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":512.0,"resourceVersion":"1.0","name":"inst_3B36F806","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_gameManager","path":"objects/obj_gameManager/obj_gameManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":192.0,"resourceVersion":"1.0","name":"inst_6F41635D","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Events","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tileset_forest","path":"tilesets/tileset_forest/tileset_forest.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":75,"SerialiseHeight":25,"TileSerialiseData":[
 857,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -137,6 +139,8 @@
     {"name":"inst_5A86D87","path":"rooms/rm_lvl1/rm_lvl1.yy",},
     {"name":"inst_17FA9473","path":"rooms/rm_lvl1/rm_lvl1.yy",},
     {"name":"inst_DF812FD","path":"rooms/rm_lvl1/rm_lvl1.yy",},
+    {"name":"inst_3B36F806","path":"rooms/rm_lvl1/rm_lvl1.yy",},
+    {"name":"inst_6F41635D","path":"rooms/rm_lvl1/rm_lvl1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
