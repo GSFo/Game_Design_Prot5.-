@@ -5,11 +5,11 @@ if (life<0){
 }
 if (tileCollidingHorizontal(_tilemap)){
 	x = xprevious;
-	direction =(direction+180)%360;
+	direction =(180-direction)%360;
 }
 else if (!onlandStrict(_tilemap)){
 	x = xprevious;
-	direction =(direction+180)%360;
+	direction =(180-direction)%360;
 }
 if (x != xprevious){
 	image_xscale = abs(image_xscale)*sign(x-xprevious);

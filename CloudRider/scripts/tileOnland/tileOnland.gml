@@ -2,14 +2,15 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
 function getBottom(){
-	return -image_yscale*sprite_yoffset+ y +image_yscale*sprite_height;
+	return -sprite_yoffset+ y + sprite_height-3;
 }
 
 function tileOnland(_tilemap){
 	var bot = getBottom();
-	var onland = tilemap_get_at_pixel(_tilemap, x-sprite_xoffset*image_xscale,bot+15)|| 
-	tilemap_get_at_pixel(_tilemap, x-sprite_xoffset*image_xscale+image_xscale * sprite_width  /2, bot+15)||
-	tilemap_get_at_pixel(_tilemap, x-sprite_xoffset*image_xscale+image_xscale * sprite_width, bot+15);
+	draw_text( x-sprite_xoffset,bot+5,"?")
+	var onland = tilemap_get_at_pixel(_tilemap, x-sprite_xoffset,bot+10)|| 
+	tilemap_get_at_pixel(_tilemap, x-sprite_xoffset+sprite_width/2, bot+10)||
+	tilemap_get_at_pixel(_tilemap, x-sprite_xoffset+sprite_width, bot+10);
 //	show_debug_message("onland")
 	return onland;
 }
@@ -17,8 +18,8 @@ function tileOnland(_tilemap){
 
 function onlandStrict(_tilemap){
 	var bot = getBottom();
-	var onland = tilemap_get_at_pixel(_tilemap, x-sprite_xoffset*image_xscale,bot+15)&&
-	tilemap_get_at_pixel(_tilemap, x-sprite_xoffset*image_xscale+image_xscale * sprite_width  /2, bot+15)&&
-	tilemap_get_at_pixel(_tilemap, x-sprite_xoffset*image_xscale+image_xscale * sprite_width, bot+15);
+	var onland = tilemap_get_at_pixel(_tilemap, x-sprite_xoffset,bot+10)&&
+	tilemap_get_at_pixel(_tilemap, x-sprite_xoffset+ sprite_width  /2, bot+10)&&
+	tilemap_get_at_pixel(_tilemap, x-sprite_xoffset+ sprite_width, bot+10);
 	return onland;
 }

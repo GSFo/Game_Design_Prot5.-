@@ -5,9 +5,9 @@
 function tileCollidingHorizontal(_tilemap){
 	var meeting = false;	
 	for (var i = -.5; i<1; ++i){
-		var xCheck= x+ i * image_xscale * sprite_width;
-		for (var yCheck = getBottom()-.2; yCheck>getBottom()- image_yscale * sprite_height; 
-			yCheck-= (image_yscale * sprite_height-.4)/4){
+		var xCheck= x+ i * sprite_width;
+		for (var yCheck = getBottom()-.2; yCheck>getBottom()- sprite_height; 
+			yCheck-= ( sprite_height-.4)/4){
 			draw_text(xCheck,yCheck,"!");
 			if (tilemap_get_at_pixel(_tilemap, xCheck, yCheck)){
 //				show_debug_message(tilemap_get_at_pixel(_tilemap, xCheck, yCheck))
@@ -19,9 +19,9 @@ function tileCollidingHorizontal(_tilemap){
 }
 function tileCollidingTop(_tilemap){
 	var meeting = false;	
-	var yCheck= getBottom()-image_yscale*sprite_height;
+	var yCheck= getBottom()-sprite_height;
 	for (var j = -1; j<2; ++j){
-		var xCheck = x + j * image_xscale * sprite_width / 4;
+		var xCheck = x + j *  sprite_width / 4;
 		draw_text(xCheck,yCheck,"!");
 		if (tilemap_get_at_pixel(_tilemap, xCheck, yCheck)){
 			meeting = true;
@@ -34,7 +34,7 @@ function tileCollidingBot(_tilemap){
 	var meeting = false;	
 	var yCheck= getBottom() ;
 	for (var j = -1; j<2; ++j){
-		var xCheck = x - j * image_xscale * sprite_width / 4;
+		var xCheck = x - j * sprite_width / 4;
 		draw_text(xCheck,yCheck,"!");
 		if (tilemap_get_at_pixel(_tilemap, xCheck, yCheck)){
 			meeting = true;

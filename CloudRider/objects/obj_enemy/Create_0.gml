@@ -8,4 +8,4 @@ direction = 0;
 
 // change curr sprite for every new enemy child
 hurt_sprite = spr_slime_hurt; 
-curr_sprite = spr_enemy_temp; 
+curr_sprite = sprite_index; 
