@@ -3,5 +3,4 @@
 if (active) {
 	active = false;
 	other.life -= damage;
-	show_debug_message("dealing damage: "+string(damage))
 }

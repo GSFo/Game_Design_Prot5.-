@@ -7,7 +7,6 @@
 //pattern 4: jump
 alarm[1] = slimeKingAIPatternChangeRate*room_speed;
 slimeKingAIPattern = (slimeKingAIPattern + 1)%4;
-show_debug_message("Changing to pattern: "+string(slimeKingAIPattern))
 if (slimeKingAIPattern ==1){
 	speed = spd;
 	direction = 0;
