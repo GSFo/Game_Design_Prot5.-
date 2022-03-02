@@ -8,5 +8,5 @@ hooked = false;
 depth = -999;
 lastRoom = room
 
-items = [false,false,false,false,true]
+items = [false,true,false,false,true]
 itemNames = ["betterSword","skyArrow","regenerator","betterBow","sword"]
