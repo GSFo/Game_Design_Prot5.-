@@ -12,6 +12,7 @@
     {"id":{"name":"obj_basicEnemyProjectile","path":"objects/obj_basicEnemyProjectile/obj_basicEnemyProjectile.yy",},"order":2,},
     {"id":{"name":"spr_bg_clouds","path":"sprites/spr_bg_clouds/spr_bg_clouds.yy",},"order":4,},
     {"id":{"name":"spr_redSlime","path":"sprites/spr_redSlime/spr_redSlime.yy",},"order":3,},
+    {"id":{"name":"spr_cloud_static","path":"sprites/spr_cloud_static/spr_cloud_static.yy",},"order":8,},
     {"id":{"name":"obj_cloud_static","path":"objects/obj_cloud_static/obj_cloud_static.yy",},"order":1,},
     {"id":{"name":"spr_player_wall","path":"sprites/spr_player_wall/spr_player_wall.yy",},"order":4,},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},"order":0,},
