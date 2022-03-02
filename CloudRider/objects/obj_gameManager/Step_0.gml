@@ -7,6 +7,8 @@ if (room!=rm_lose && room != rm_win && obj_player.life<0){
 	if (room == rm_lv1_1){
 		room_goto(rm_lv2)
 		obj_player.life = 100;
+		obj_player.x = 30;
+		obj_player.y = 100;
 	}
 	else{
 		room_goto(rm_lose);
@@ -16,6 +18,7 @@ if (room!=rm_lose && room != rm_win && obj_player.life<0){
 
 if ((room == rm_lv3||room == rm_lv1_1) && !instance_exists(obj_enemy)){
 	room_goto(rm_win);
+	instance_destroy(obj_player);
 }
 
 
