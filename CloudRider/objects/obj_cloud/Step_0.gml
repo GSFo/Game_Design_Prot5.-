@@ -2,7 +2,7 @@
 // You can write your code in this editor
 var delta_second = delta_time/1000000;
 lifetime += delta_second;
-if (y<100){
+if (y<150){
 	vspeed = 0;
 }
 if (lifetime<=maxLifetime/3){
