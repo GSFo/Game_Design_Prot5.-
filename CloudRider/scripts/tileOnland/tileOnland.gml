@@ -11,7 +11,6 @@ function tileOnland(_tilemap){
 	var onland = tilemap_get_at_pixel(_tilemap, x-sprite_xoffset,bot+10)|| 
 	tilemap_get_at_pixel(_tilemap, x-sprite_xoffset+sprite_width/2, bot+10)||
 	tilemap_get_at_pixel(_tilemap, x-sprite_xoffset+sprite_width, bot+10);
-//	show_debug_message("onland")
 	return onland;
 }
 

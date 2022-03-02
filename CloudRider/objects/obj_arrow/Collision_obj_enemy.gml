@@ -4,4 +4,5 @@ if(!other.shield){
 	other.life -= damage;
 	other.hurt = true; 
 }
+	
 instance_destroy();

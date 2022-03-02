@@ -10,7 +10,6 @@ function tileCollidingHorizontal(_tilemap){
 			yCheck-= ( sprite_height-.4)/4){
 			draw_text(xCheck,yCheck,"!");
 			if (tilemap_get_at_pixel(_tilemap, xCheck, yCheck)){
-//				show_debug_message(tilemap_get_at_pixel(_tilemap, xCheck, yCheck))
 				meeting = true;
 			}
 		}
@@ -83,7 +82,6 @@ function basicTileCollisionHandleNoGravity(_tilemap){
 		x = xprevious;
 		hspeed = 0;
 		_colliding = true;
-		if (object_index == obj_player) hcollide = true; 
 	}
 	if (tileCollidingTop(_tilemap)){
 		y = yprevious;
