@@ -7,7 +7,7 @@ if (tileCollidingHorizontal(_tilemap)){
 	x = xprevious;
 	direction =(180-direction)%360;
 }
-else if (!onlandStrict(_tilemap)){
+else if (tileOnland(_tilemap)&&!onlandStrict(_tilemap)){
 	x = xprevious;
 	direction =(180-direction)%360;
 }
