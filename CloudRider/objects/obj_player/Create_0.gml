@@ -7,3 +7,6 @@ hook = pointer_null;
 hooked = false;
 depth = -999;
 lastRoom = room
+
+items = [false,true,false,false,false]
+itemNames = ["betterSword","skyArrow","regenerator","betterBow",""]

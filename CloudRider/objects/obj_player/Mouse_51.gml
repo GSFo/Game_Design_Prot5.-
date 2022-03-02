@@ -13,6 +13,10 @@ if (arrowCDRemain<=0){
 
 if (arrowCDRemain<=0){
 	sprite_index = spr_player_shoot;
-	image_xscale = sign(mouse_x-x); 	
+	image_xscale = sign(mouse_x-x);
 	arrowCDRemain = arrowCDTotal;
+	//better bow effect
+	if (items[3]){
+		arrowCDRemain *= .7;
+	}
 } 

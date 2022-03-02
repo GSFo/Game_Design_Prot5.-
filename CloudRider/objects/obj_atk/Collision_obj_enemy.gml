@@ -2,9 +2,6 @@
 // You can write your code in this editor
 if (active) {
 	active = false;
-
-	with(other){
-		instance_destroy();
-	}
-	
+	other.life -= damage;
+	show_debug_message("dealing damage: "+string(damage))
 }
