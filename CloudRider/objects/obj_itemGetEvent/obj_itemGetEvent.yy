@@ -29,7 +29,9 @@
   "properties": [
     {"varType":1,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"itemIndex","tags":[],"resourceType":"GMObjectProperty",},
   ],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"eventText","path":"objects/obj_oneTimeTextEvent/obj_oneTimeTextEvent.yy",},"objectId":{"name":"obj_oneTimeTextEvent","path":"objects/obj_oneTimeTextEvent/obj_oneTimeTextEvent.yy",},"value":"DEFAULT","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Events",
     "path": "folders/Objects/Events.yy",
