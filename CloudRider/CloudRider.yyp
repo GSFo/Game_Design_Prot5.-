@@ -48,6 +48,7 @@
     {"id":{"name":"spr_enemy_temp","path":"sprites/spr_enemy_temp/spr_enemy_temp.yy",},"order":2,},
     {"id":{"name":"obj_atk","path":"objects/obj_atk/obj_atk.yy",},"order":5,},
     {"id":{"name":"obj_blueSlime","path":"objects/obj_blueSlime/obj_blueSlime.yy",},"order":1,},
+    {"id":{"name":"obj_itemGetEvent","path":"objects/obj_itemGetEvent/obj_itemGetEvent.yy",},"order":2,},
     {"id":{"name":"rm_lvl1","path":"rooms/rm_lvl1/rm_lvl1.yy",},"order":0,},
   ],
   "Options": [
