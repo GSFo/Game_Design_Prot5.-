@@ -9,3 +9,4 @@ alarm[0] = room_speed;
 
 // change curr sprite for every new enemy child 
 curr_sprite = sprite_index; 
+projectile = obj_bouncingSlimeBall;

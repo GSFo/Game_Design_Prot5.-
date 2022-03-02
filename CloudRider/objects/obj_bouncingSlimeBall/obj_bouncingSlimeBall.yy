@@ -38,7 +38,7 @@
     "path": "folders/Objects/Projectiles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_boucingSlimeBall",
+  "name": "obj_bouncingSlimeBall",
   "tags": [],
   "resourceType": "GMObject",
 }

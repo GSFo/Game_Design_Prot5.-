@@ -9,3 +9,5 @@ image_yscale = 1.5;
 alarm[1] = room_speed * slimeKingAIPatternChangeRate
 alarm[2] = room_speed;
 alarm[3] = room_speed;
+
+summonedObject = obj_blueSlime;

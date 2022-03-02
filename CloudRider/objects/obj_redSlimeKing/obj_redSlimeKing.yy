@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_redSlime",
-    "path": "sprites/spr_redSlime/spr_redSlime.yy",
+    "name": "spr_redSlimeKing",
+    "path": "sprites/spr_redSlimeKing/spr_redSlimeKing.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_blueSlime",
-    "path": "objects/obj_blueSlime/obj_blueSlime.yy",
+    "name": "obj_blueSlimeKing",
+    "path": "objects/obj_blueSlimeKing/obj_blueSlimeKing.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Creatures.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_redSlime",
+  "name": "obj_redSlimeKing",
   "tags": [],
   "resourceType": "GMObject",
 }

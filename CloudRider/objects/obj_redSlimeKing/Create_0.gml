@@ -4,6 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-// change sprite for every new enemy child 
-curr_sprite = spr_redSlime; 
 projectile = obj_redSlimeBall;
+summonedObject = obj_redSlime;
