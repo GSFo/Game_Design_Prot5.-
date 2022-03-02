@@ -1,6 +1,6 @@
 /// @description melee attack
 // You can write your code in this editor
-if (meleeAttackCDRemain<0){
+if (meleeAttackCDRemain<0 && items[4]){
 	#region Small sword chop animation (old) 
 	/* small sword chop animation code here 
 	meleeAttackCDRemain = meleeAttackCD;

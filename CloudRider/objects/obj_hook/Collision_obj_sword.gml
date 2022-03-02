@@ -1,0 +1,6 @@
+/// @description Insert description here
+// You can write your code in this editor
+if(!back){
+	back = true;
+	other.hooked = true;
+}

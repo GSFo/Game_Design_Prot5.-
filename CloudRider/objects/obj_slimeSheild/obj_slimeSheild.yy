@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_enemy_temp",
-    "path": "sprites/spr_enemy_temp/spr_enemy_temp.yy",
+    "name": "spr_blueSlime_shield",
+    "path": "sprites/spr_blueSlime_shield/spr_blueSlime_shield.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_enemy",
+    "path": "objects/obj_enemy/obj_enemy.yy",
+  },
   "physicsObject": true,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -38,15 +41,16 @@
     {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spd","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"hurt","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"damageScale","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"shield","tags":[],"resourceType":"GMObjectProperty",},
   ],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"damageScale","path":"objects/obj_enemy/obj_enemy.yy",},"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Creatures",
     "path": "folders/Objects/Creatures.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy",
+  "name": "obj_slimeSheild",
   "tags": [],
   "resourceType": "GMObject",
 }

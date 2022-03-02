@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_xscale=.5;
-image_yscale=.5;
+image_xscale=2;
+image_yscale=2;
 _tilemap = layer_tilemap_get_id("Tiles_Collision"); 
 speed = spd;
 direction = 0;
@@ -10,4 +10,4 @@ direction = 0;
 hurt_sprite = spr_slime_hurt; 
 curr_sprite = sprite_index; 
 
-//shield = false;
+shield = true;
