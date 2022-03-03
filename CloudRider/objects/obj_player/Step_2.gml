@@ -7,7 +7,9 @@ if (basicTileCollisionHandle(_tilemap)){
 		sprite_index = spr_player_wall; 
 	}
 }
-
+if (hook==pointer_null || !instance_exists(hook)){
+	hooked = false;
+}
 if (hooked){
 	gravity=0; 
 }
