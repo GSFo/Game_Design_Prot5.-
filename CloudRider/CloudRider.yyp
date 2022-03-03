@@ -16,6 +16,7 @@
     {"id":{"name":"obj_basicEnemyProjectile","path":"objects/obj_basicEnemyProjectile/obj_basicEnemyProjectile.yy",},"order":2,},
     {"id":{"name":"spr_bg_clouds","path":"sprites/spr_bg_clouds/spr_bg_clouds.yy",},"order":4,},
     {"id":{"name":"spr_redSlime","path":"sprites/spr_redSlime/spr_redSlime.yy",},"order":3,},
+    {"id":{"name":"snd_gain_item","path":"sounds/snd_gain_item/snd_gain_item.yy",},"order":11,},
     {"id":{"name":"obj_gameManager","path":"objects/obj_gameManager/obj_gameManager.yy",},"order":5,},
     {"id":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},"order":6,},
     {"id":{"name":"spr_redSlimeKing","path":"sprites/spr_redSlimeKing/spr_redSlimeKing.yy",},"order":6,},

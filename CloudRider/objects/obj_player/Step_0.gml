@@ -29,6 +29,7 @@ if (mana > maxMana){
 
 var apple_ID = instance_place(x, y, obj_apple); 
 if (apple_ID != noone) {
+	audio_play_sound(snd_gain_item, 1, false);
 	obj_gameManager.score_val += apple_ID.apple_pts; 
 	instance_destroy(apple_ID); 	
 } 
