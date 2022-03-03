@@ -13,10 +13,12 @@ if (sprite_index == spr_player_shoot) {
 } 
 
 if (sprite_index == spr_player_jump) {
+	image_index = 0; 
 	sprite_index = spr_player_idle; 
 	grounded = true; 
 } 
 
 if (sprite_index == spr_player_front_atk) {
+	image_index = 0; 
 	sprite_index = spr_player_idle; 	
 } 
