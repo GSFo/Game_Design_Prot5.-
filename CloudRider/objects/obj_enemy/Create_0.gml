@@ -11,3 +11,5 @@ hurt_sprite = spr_slime_hurt;
 curr_sprite = sprite_index; 
 
 //shield = false;
+
+prelife = life;
