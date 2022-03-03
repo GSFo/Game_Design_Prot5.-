@@ -22,3 +22,7 @@ else{
 if (back){
 	move_towards_point(source.x,source.y,2)
 }
+if (distance_to_object(obj_player)>2000){
+	instance_destroy();
+	
+}

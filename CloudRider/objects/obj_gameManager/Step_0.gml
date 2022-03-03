@@ -16,10 +16,11 @@ if (room!=rm_lose && room != rm_win && obj_player.life<0){
 if ((room == rm_lv3||room == rm_lv1_1) && !instance_exists(obj_enemy)){
 	room_goto(rm_win);
 	instance_destroy(obj_player);
+	score_val += round(1000/current_time)
 }
 
 
-if ((room== rm_lose || room == rm_win) && keyboard_check_pressed(vk_anykey)){
+if ((room== rm_lose || room == rm_win) && keyboard_check_pressed(ord("R"))){
 	room_goto(rm_lvl1)
 	score_val = 0;
 }
