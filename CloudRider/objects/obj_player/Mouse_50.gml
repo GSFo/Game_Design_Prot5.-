@@ -21,11 +21,13 @@ if (meleeAttackCDRemain<0 && items[4]){
 	#endregion
 
 // player attack animation here (player uses like a circle chop so all angles look the same) 
+	audio_play_sound(snd_shortTermAtk,1,false);
 	meleeAttackCDRemain = meleeAttackCD;
 	image_index = 0; 
 	sprite_index = spr_player_front_atk;
 	var inst_attacked = collision_rectangle(x-sprite_xoffset*1.5, y+sprite_yoffset, x+sprite_xoffset*1.5, y-sprite_yoffset*2.2, obj_enemy, false, true); 
 	if (inst_attacked != noone) {
+		//audio_play_sound(snd_blood,1,false);
 		if (items[0]) {
 			inst_attacked.life -= damage*2; 	
 		} 

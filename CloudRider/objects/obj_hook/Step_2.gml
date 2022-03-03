@@ -2,6 +2,10 @@
 // You can write your code in this editor
 if (!back){
 	if (tileEnter(_tilemap)){
+		if(!intile){
+			audio_play_sound(snd_hookHitTile,1,false);
+		}
+		intile = true;
 		speed = 0;
 		if (!arrived){
 			with (source){
@@ -16,3 +20,4 @@ if (!back){
 		}
 	}
 }
+//preback = back;

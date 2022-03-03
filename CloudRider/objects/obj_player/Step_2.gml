@@ -26,6 +26,7 @@ if (keyboard_key == 0 &&
 var sCloud = collision_point(x,y+sprite_yoffset,obj_cloud_static,false,false);
 if(sCloud && vspeed > 0){
 	if(sCloud.ready){
+		audio_play_sound(snd_jumpSnow,1,false);
 		vspeed = -jumpPower;
 		image_index = 0; 
 		sprite_index = spr_player_jump;

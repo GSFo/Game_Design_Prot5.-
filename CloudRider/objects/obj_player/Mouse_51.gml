@@ -12,6 +12,7 @@ if (arrowCDRemain<=0){
 */
 
 if (arrowCDRemain<=0){
+	audio_play_sound(snd_shoot, 1, false);
 	image_index = 0; 
 	sprite_index = spr_player_shoot;
 	image_xscale = sign(mouse_x-x);

@@ -6,4 +6,7 @@ if (!back){
 	source.hooked = true;
 	other.vspeed = 0;
 	hookedToCloud = true;
+	/*if(!preback && back){
+		audio_play_sound(snd_hookHitCloud,1,false);
+	}*/
 }

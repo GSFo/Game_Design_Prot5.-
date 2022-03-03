@@ -10,3 +10,4 @@ damage = 2;
 source = obj_player;
 roped = false;
 back = false;
+audio_play_sound(snd_swordRotate,1,true);

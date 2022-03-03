@@ -1,6 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(!preback && back){
+	audio_stop_sound(snd_hookOut);
+	audio_play_sound(snd_hookBack,1,false);
+}
+if(!preHookToCloud && hookedToCloud){
+		audio_play_sound(snd_hookHitCloud,1,false);
+}
+preHookToCloud = hookedToCloud;
+preback = back
 if (distance_to_object(source)>range){
 	back = true;
 }

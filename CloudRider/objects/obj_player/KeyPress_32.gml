@@ -1,5 +1,6 @@
 /// @description Jump
 // You can write your code in this editor
+audio_play_sound(snd_jump,1,false);
 if (hook!=pointer_null&&instance_exists(hook) && hook.arrived){
 	hooked = false;
 	instance_destroy(hook);
