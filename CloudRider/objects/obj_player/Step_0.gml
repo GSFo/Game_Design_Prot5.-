@@ -31,3 +31,13 @@ if (apple_ID != noone) {
 	obj_gameManager.score_val += apple_ID.apple_pts; 
 	instance_destroy(apple_ID); 	
 } 
+//show_debug_message("life");
+//show_debug_message(prelife);
+//show_debug_message(life);
+if(prelife > life){
+	//show_debug_message("life");
+	//show_debug_message(prelife);
+	//show_debug_message(life);
+	audio_play_sound(snd_hurt,1,false);
+}
+prelife = life;

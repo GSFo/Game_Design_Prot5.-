@@ -10,3 +10,5 @@ lastRoom = room
 
 items = [false,false,false,false,true,false]
 itemNames = ["betterSword","skyArrow","regenerator","betterBow","sword","swordRope"]
+
+prelife = life;

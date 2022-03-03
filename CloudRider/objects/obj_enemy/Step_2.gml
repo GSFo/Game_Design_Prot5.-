@@ -20,4 +20,10 @@ basicTileCollisionHandle(_tilemap)
 
 if (hurt) {
 	sprite_index = spr_slime_hurt; 	
+	//audio_play_sound(snd_bossHurt,1,false);
 } 
+
+if(prelife > life){
+	audio_play_sound(snd_bossHurt,1,false);
+}
+prelife = life;
