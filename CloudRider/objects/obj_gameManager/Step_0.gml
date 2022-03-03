@@ -26,3 +26,23 @@ if ((room== rm_lose || room == rm_win) && keyboard_check_pressed(vk_anykey)){
 	room_goto(rm_lvl1)
 	bossForeshadowTriggered = false;
 }
+
+#region Score Comments 
+/*
+Score: 
+Blue slime +10 pts
+Red slime +15 pts
+Blue Slime Shield +20 pts
+Blue Slime King +500 pts
+Red Slime King +500 pts 
+Apple +5 pts 
+Get all apples in a level +10 extra pts
+Defeat all enemies in a level +20 extra pts 
+Defeat both slime kings +300 extra pts 
+*/
+#endregion 
+
+
+
+
+

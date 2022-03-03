@@ -89,11 +89,11 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},},
     {"roomId":{"name":"rm_lvl1","path":"rooms/rm_lvl1/rm_lvl1.yy",},},
     {"roomId":{"name":"rm_lv1_1","path":"rooms/rm_lv1_1/rm_lv1_1.yy",},},
     {"roomId":{"name":"rm_lv2","path":"rooms/rm_lv2/rm_lv2.yy",},},
     {"roomId":{"name":"rm_lv3","path":"rooms/rm_lv3/rm_lv3.yy",},},
+    {"roomId":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},},
     {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
   ],
   "Folders": [
