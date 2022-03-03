@@ -10,6 +10,8 @@ summonCloudCDRemain -= delta_second;
 meleeAttackCDRemain -= delta_second;
 if (lastRoom!=room){
 	_tilemap = layer_tilemap_get_id("Tiles_Collision");
+	hooked = false;
+	hook = pointer_null;
 	lastRoom = room;
 }
 if (items[2]){

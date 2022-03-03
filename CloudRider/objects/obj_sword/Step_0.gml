@@ -17,3 +17,6 @@ else{
 		}
 	}
 }
+if (back){
+	move_towards_point(source.x,source.y,2)
+}

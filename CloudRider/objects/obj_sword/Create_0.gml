@@ -7,3 +7,6 @@ startTime = current_time;
 initialSpeed = 2;
 hooked = false;
 damage = 2;
+source = obj_player;
+roped = false;
+back = false;
