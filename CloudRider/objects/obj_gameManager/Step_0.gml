@@ -21,7 +21,7 @@ if ((room == rm_lv3||room == rm_lv1_1) && !instance_exists(obj_enemy)){
 
 if ((room== rm_lose || room == rm_win) && keyboard_check_pressed(vk_anykey)){
 	room_goto(rm_lvl1)
-	bossForeshadowTriggered = false;
+	score_val = 0;
 }
 
 #region Score Comments 
