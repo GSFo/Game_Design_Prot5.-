@@ -9,4 +9,5 @@ if(rotate){
 	other.life -= damage*max(abs(vspeed),1);
 	other.hurt = true; 
 	show_debug_message(vspeed);
+	rotate = false;
 }
