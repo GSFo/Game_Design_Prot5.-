@@ -11,7 +11,6 @@ if (basicTileCollisionHandle(_tilemap)){
 if (hooked){
 	gravity=0; 
 }
-
 if (x!=xprevious && sprite_index != spr_player_shoot) { 
 	image_xscale = sign(x-xprevious)*abs(image_xscale);
 }  

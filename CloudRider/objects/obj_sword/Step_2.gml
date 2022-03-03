@@ -10,10 +10,3 @@ if (!back){
 		//gravity = 0;
 	}
 }
-else{
-	show_debug_message(x)
-	show_debug_message(y)
-	
-	show_debug_message(source.x)
-	show_debug_message(source.y)
-}

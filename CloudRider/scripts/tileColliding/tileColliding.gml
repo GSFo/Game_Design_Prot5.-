@@ -4,23 +4,30 @@
 
 function tileCollidingHorizontal(_tilemap){
 	var meeting = false;	
-	for (var i = -.5; i<1; ++i){
-		var xCheck= x+ i * sprite_width;
-		for (var yCheck = getBottom()-.2; yCheck>getBottom()- sprite_height; 
-			yCheck-= ( sprite_height-.4)/4){
-			draw_text(xCheck,yCheck,"!");
-			if (tilemap_get_at_pixel(_tilemap, xCheck, yCheck)){
-				meeting = true;
-			}
+	var xCheck = bbox_left;
+	for (var yCheck = bbox_bottom-.2; yCheck>bbox_top; 
+		yCheck-= (sprite_height-.4)/4){
+		draw_text(xCheck,yCheck,"!");
+		if (tilemap_get_at_pixel(_tilemap, xCheck, yCheck)){
+			meeting = true;
 		}
 	}
+	var xCheck = bbox_right;
+	for (var yCheck = bbox_bottom-.2; yCheck>bbox_top; 
+		yCheck-= (bbox_bottom-bbox_top-.4)/4){
+		draw_text(xCheck,yCheck,"!");
+		if (tilemap_get_at_pixel(_tilemap, xCheck, yCheck)){
+			meeting = true;
+		}
+	}
+	
 	return meeting;
 }
 function tileCollidingTop(_tilemap){
 	var meeting = false;	
-	var yCheck= getBottom()-sprite_height;
-	for (var j = -1; j<2; ++j){
-		var xCheck = x + j *  sprite_width / 4;
+	var yCheck= bbox_top;
+	for (var j = 0; j<4; ++j){
+		var xCheck = bbox_left + j *  (bbox_right-bbox_left) / 4;
 		draw_text(xCheck,yCheck,"!");
 		if (tilemap_get_at_pixel(_tilemap, xCheck, yCheck)){
 			meeting = true;
@@ -31,9 +38,9 @@ function tileCollidingTop(_tilemap){
 
 function tileCollidingBot(_tilemap){
 	var meeting = false;	
-	var yCheck= getBottom() ;
-	for (var j = -1; j<2; ++j){
-		var xCheck = x - j * sprite_width / 4;
+	var yCheck= bbox_bottom;
+	for (var j = 0; j<4; ++j){
+		var xCheck = bbox_left + j *  (bbox_right-bbox_left) / 4;
 		draw_text(xCheck,yCheck,"!");
 		if (tilemap_get_at_pixel(_tilemap, xCheck, yCheck)){
 			meeting = true;

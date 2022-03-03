@@ -55,6 +55,10 @@
         {"properties":[
             {"propertyId":{"name":"eventText","path":"objects/obj_oneTimeTextEvent/obj_oneTimeTextEvent.yy",},"objectId":{"name":"obj_oneTimeTextEvent","path":"objects/obj_oneTimeTextEvent/obj_oneTimeTextEvent.yy",},"value":"Congratulations on reaching so high!\\nYou can throw your sword from height by pressing [F].\\n The higher you throw from, the more potential energy the sword gets!","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_oneTimeTextEvent","path":"objects/obj_oneTimeTextEvent/obj_oneTimeTextEvent.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.5,"scaleY":2.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":64.0,"resourceVersion":"1.0","name":"inst_56425565","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_apple","path":"objects/obj_apple/obj_apple.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":800.0,"y":224.0,"resourceVersion":"1.0","name":"inst_547AFD36","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_apple","path":"objects/obj_apple/obj_apple.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":192.0,"resourceVersion":"1.0","name":"inst_6B665C42","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_apple","path":"objects/obj_apple/obj_apple.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":160.0,"resourceVersion":"1.0","name":"inst_593C2868","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_apple","path":"objects/obj_apple/obj_apple.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":128.0,"resourceVersion":"1.0","name":"inst_7AF0D5F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Events","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tileset_forest","path":"tilesets/tileset_forest/tileset_forest.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":75,"SerialiseHeight":25,"TileSerialiseData":[
 857,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,914,
@@ -167,6 +171,10 @@
     {"name":"inst_48B084B0","path":"rooms/rm_lvl1/rm_lvl1.yy",},
     {"name":"inst_7DFC7E35","path":"rooms/rm_lvl1/rm_lvl1.yy",},
     {"name":"inst_32C1CA86","path":"rooms/rm_lvl1/rm_lvl1.yy",},
+    {"name":"inst_547AFD36","path":"rooms/rm_lvl1/rm_lvl1.yy",},
+    {"name":"inst_6B665C42","path":"rooms/rm_lvl1/rm_lvl1.yy",},
+    {"name":"inst_593C2868","path":"rooms/rm_lvl1/rm_lvl1.yy",},
+    {"name":"inst_7AF0D5F","path":"rooms/rm_lvl1/rm_lvl1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

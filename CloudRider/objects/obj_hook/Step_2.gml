@@ -8,6 +8,7 @@ if (!back){
 		intile = true;
 		speed = 0;
 		if (!arrived){
+			show_debug_message("??")
 			with (source){
 				hooked = true;
 				if (!(tileCollidingBot(_tilemap)||tileCollidingHorizontal(_tilemap)||tileCollidingTop(_tilemap))){

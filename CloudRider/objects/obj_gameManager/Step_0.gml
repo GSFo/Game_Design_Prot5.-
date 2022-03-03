@@ -1,9 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (room!=rm_lose && room != rm_win && obj_player.life<0){
-	
-	show_debug_message(room==rm_lv1_1)
-
 	if (room == rm_lv1_1){
 		room_goto(rm_lv2)
 		obj_player.life = 100;
