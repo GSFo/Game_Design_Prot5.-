@@ -29,6 +29,6 @@ if (mana > maxMana){
 
 var apple_ID = instance_place(x, y, obj_apple); 
 if (apple_ID != noone) {
-	obj_gameManager.score_val += appleID.apple_pts; 
+	obj_gameManager.score_val += apple_ID.apple_pts; 
 	instance_destroy(apple_ID); 	
 } 
